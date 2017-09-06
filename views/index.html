@@ -1,0 +1,25 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <h1>
+    Google image search:
+  </h1>
+  <span>https://searchimg.glitch.me/api/imagesearch/{search_request}/?offset={offset_number}</span>
+  <br>
+  <span>Example: <a href = "https://searchimg.glitch.me/api/imagesearch/funny%20cats?offset=10" target = "_blank"> https://searchimg.glitch.me/api/imagesearch/funny cats?offset=2</a> </span>
+  <h2>
+    Recent search queries:
+  </h2>
+  <span><a href = "https://searchimg.glitch.me/api/latest/imagesearch/" target = "_blank">https://searchimg.glitch.me/api/latest/imagesearch/</a></span>
+</html>
