@@ -1,0 +1,13 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+}
+span, a {
+  color: darkgreen;
+  background: lightgreen;
+  line-height: 1.5em;
+}
